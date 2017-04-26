@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>‰Ø¿¿</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Your description">
+    <meta name="keywords" content="Your keywords">
+    <meta name="author" content="Your name">
+    <link rel="stylesheet" href="css/style.css">
+      
+    <link rel="stylesheet" href="css/jquery.fancybox.css" >
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.1.1.js"></script>
+    <script src="js/bgstretcher.js"></script>
+    <script src="js/jquery.elastislide.js"></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <script>
+	$(document).ready(function() {	
+      //  Initialize Backgound Stretcher
+      $('BODY').bgStretcher({
+        images: ['images/slide-1.jpg'], 
+		imageWidth: 1600, 
+		imageHeight:1400, 
+		resizeProportionally:true	
+       });
+	$('#carousel').elastislide({imageW :300,margin: 20,minItems: 3});   
+	$('.magnifier').fancybox();   
+		
+
+	$(".view").hover(
+	function(){$(this).find("img").stop().animate({opacity:0.5},"normal")},
+	function(){$(this).find("img").stop().animate({opacity:1},"normal")})
+	})  
+	     	
+    </script>
+ 
+
+    </head>
+    <body>
+<div class="extra-block"> 
+      <!--==============================row-top=================================-->
+      <div class="row-top">
+    <div class="main">
+           
+        </div>
+  </div>
+      
+      <!--==============================header=================================-->
+      
+   <header>
+    <div class="row-nav">
+        <div class="main">
+        <h1 class="logo"><a href="index.html"><img alt="Eni Gma" src="images/logo.png"></a></h1>
+        <nav>
+           <ul class="menu">
+            <li class="current"><a href="index.html">Main !</a></li>
+            <li><a href="index-2.html">wow !</a></li>
+            <li><a href="index-3.html">Gallery !</a></li>
+          </ul>
+        </nav>
+        <div class="clear"></div>
+      </div>
+      </div>
+  </header>
+  
+    <!--==============================content=================================-->
+    <section id="content">    
+    <div class="main-block">
+    <div class="main">
+     <h3>Gallery</h3>
+        
+   <div id="carousel" class="es-carousel-wrapper ">
+          <div class="es-carousel">
+            <ul>
+             <li>                    
+              <figure class="img-rounded"><a  class="view magnifier" data-fancybox-group="gallery" href="images/page4-img1.jpg" title=""><img src="images/page4-img1.jpg" alt="" width=300 height=200/><span></span></a> </figure>   
+              <figure class="img-rounded"><a  class="view magnifier" data-fancybox-group="gallery" href="images/page4-img4.jpg" title=""><img src="images/page4-img4.jpg" alt="" width=300 height=200/><span></span></a></figure>  
+              </li>
+              
+              <li>             
+              <figure class="img-rounded"><a  class="view magnifier" data-fancybox-group="gallery" href="images/page4-img2.jpg" title=""><img src="images/page4-img2.jpg" alt="" width=300 height=200/><span></span></a> </figure>   
+              <figure class="img-rounded"><a  class="view magnifier" data-fancybox-group="gallery" href="images/page4-img5.jpg" title=""><img src="images/page4-img5.jpg" alt="" width=300 height=200/><span></span></a> </figure>  
+              </li> 
+              
+              <li>             
+              <figure class="img-rounded"><a  class="view magnifier" data-fancybox-group="gallery" href="images/page4-img3.jpg" title=""><img src="images/page4-img3.jpg" alt="" width=300 height=200/><span></span></a> </figure>   
+              <figure class="img-rounded"><a  class="view magnifier" data-fancybox-group="gallery" href="images/page4-img6.jpg" title=""><img src="images/page4-img6.jpg" alt="" width=300 height=200/><span></span></a> </figure>  
+              </li> 
+             <li>                    
+              <figure class="img-rounded"><a  class="view magnifier" data-fancybox-group="gallery" href="images/page4-img7.jpg" title=""><img src="images/page4-img7.jpg" alt="" width=300 height=200/><span></span></a> </figure>   
+              <figure class="img-rounded"><a  class="view magnifier" data-fancybox-group="gallery" href="images/page4-img8.jpg" title=""><img src="images/page4-img8.jpg" alt="" width=300 height=200/><span></span> </a></figure>  
+              </li>
+              
+              <li>             
+              <figure class="img-rounded"><a  class="view magnifier" data-fancybox-group="gallery" href="images/page4-img9.jpg" title=""><img src="images/page4-img9.jpg" alt="" width=300 height=200/><span></span></a> </figure>   
+              <figure class="img-rounded"><a  class="view magnifier" data-fancybox-group="gallery" href="images/page4-img10.jpg" title=""><img src="images/page4-img10.jpg" alt="" width=300 height=200/><span></span></a> </figure>  
+              </li>
+			  <li>             
+              <figure class="img-rounded"><a  class="view magnifier" data-fancybox-group="gallery" href="images/page4-img11.jpg" title=""><img src="images/page4-img11.jpg" alt="" width=300 height=200/><span></span></a> </figure>   
+              <figure class="img-rounded"><a  class="view magnifier" data-fancybox-group="gallery" href="images/page4-img12.jpg" title=""><img src="images/page4-img12.jpg" alt="" width=300 height=200/><span></span></a> </figure>  
+              </li>
+			  <li>             
+              <figure class="img-rounded"><a  class="view magnifier" data-fancybox-group="gallery" href="images/page4-img13.jpg" title=""><img src="images/page4-img13.jpg" alt="" width=300 height=200/><span></span></a> </figure>   
+              <figure class="img-rounded"><a  class="view magnifier" data-fancybox-group="gallery" href="images/page4-img14.jpg" title=""><img src="images/page4-img14.jpg" alt="" width=300 height=200/><span></span></a> </figure>  
+              </li>
+			  <li>             
+              <figure class="img-rounded"><a  class="view magnifier" data-fancybox-group="gallery" href="images/page4-img15.jpg" title=""><img src="images/page4-img15.jpg" alt="" width=300 height=200/><span></span></a> </figure>   
+              <figure class="img-rounded"><a  class="view magnifier" data-fancybox-group="gallery" href="images/page4-img16.jpg" title=""><img src="images/page4-img16.jpg" alt="" width=300 height=200/><span></span></a> </figure>  
+              </li>
+			  <li>             
+              <figure class="img-rounded"><a  class="view magnifier" data-fancybox-group="gallery" href="images/page4-img17.jpg" title=""><img src="images/page4-img17.jpg" alt="" width=300 height=200/><span></span></a> </figure>   
+              <figure class="img-rounded"><a  class="view magnifier" data-fancybox-group="gallery" href="images/page4-img18.jpg" title=""><img src="images/page4-img18.jpg" alt="" width=300 height=200/><span></span></a> </figure>  
+              </li>
+            </ul>
+          </div>
+        </div>
+     </div>
+  </div>
+ </section> 
+  
+ </div>
+<div class="block"> 
+     <!--==============================footer================================-->
+      <footer>
+    <div class="main aligncenter">
+          <div class="privacy">÷≤ŒÔ‘∞÷Æ¬√   &copy;2014.4.13 <span>|</span> Lian & Wu <span>|</span> It is a great journey ! </div>
+        </div>
+  </footer>
+    </div>
+</body>
+</html>

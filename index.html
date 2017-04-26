@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Main</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Your description">
+    <meta name="keywords" content="Your keywords">
+    <meta name="author" content="Your name">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.1.1.js"></script>
+    <script src="js/bgstretcher.js"></script>
+    <script>
+	$(function(){
+      //  Initialize Backgound Stretcher
+      $('BODY').bgStretcher({
+        images: ['images/slide-1.jpg','images/slide-2.jpg','images/slide-3.jpg'], 
+		imageWidth: 1600, 
+		imageHeight:1400, 
+		resizeProportionally:true,
+			slideDirection: 'N',
+			slideShowSpeed: 1000,
+			transitionEffect: 'fade',
+			sequenceMode: 'normal',		
+			pagination: '#nav'
+	
+       });	
+    });
+    </script>
+
+ </head>
+ <body>
+ 
+<div class="extra-block1"> 
+      <!--==============================row-top=================================-->
+  <div class="row-top">
+    <div class="main">
+        
+     </div>
+  </div>
+       
+      <!--==============================header=================================-->
+      
+      <header>
+    <div class="row-nav">
+          <div class="main">
+        <h1 class="logo"><a href="index.html"><img alt="Eni Gma" src="images/logo.png"></a></h1>
+        <nav>
+           <ul class="menu">
+            <li class="current"><a href="index.html">Main !</a></li>
+            <li><a href="index-2.html">wow !</a></li>
+            <li><a href="index-3.html">Gallery !</a></li>
+            
+          </ul>
+       </nav>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </header>
+ </div>
+ <div class="copyrights">Collect from <a href="http://www.mycodes.net/" >Website Template</a></div>
+<div class="block">
+      <div class="nav-buttons">
+    <div id="nav">&nbsp;</div>
+  </div>
+      <div class="row-1">
+    <div class="container_12">
+          <div class="wrapper">
+        <article class="grid_4">
+              <figure class="box-1"><img src="images/page1-img1.jpg" alt="" />
+            <figcaption>樱花海！<a href="more.html"></a></figcaption>
+          </figure>
+            </article>
+        <article class="grid_4">
+              <figure class="box-1"><img src="images/page1-img2.jpg" alt="" />
+            <figcaption>摩天轮！ <a href="more2.html"></a></figcaption>
+          </figure>
+            </article>
+        <article class="grid_4">
+             <figure class="box-1"><img src="images/page1-img3.jpg" alt="" />
+            <figcaption>啧啧啧！<a href="more3.html"></a></figcaption>
+          </figure>
+            </article>
+      </div>
+     </div>
+  </div>
+      
+      <!--==============================footer================================-->
+   <footer>
+    <div class="main aligncenter">
+        <div class="privacy">植物园之旅   &copy;2014.4.13 <span>|</span> Lian & Wu <span>|</span> It is a great journey ! </div>
+        </div>
+  </footer>
+ </div>
+ <bgsound src="thissea.mp3" autostart=true loop=infinite />
+</body>
+</html>
